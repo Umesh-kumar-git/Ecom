@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+.Shipping-Section{
+
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+
+}
+.Shipping-Section form{
+    width: 50%;
+    height: 100%;
+    display:flex   ;
+    justify-content: center ;
+    flex-direction: column;
+}
+ button{
+    cursor: pointer;
+ }

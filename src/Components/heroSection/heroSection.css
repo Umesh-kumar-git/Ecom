@@ -1,0 +1,40 @@
+.hero-wapper{
+    width: 100%;
+    height:80vh;
+    text-align: center;
+    background-color:#ff6d3c;
+}
+.hero-box{
+    width: 100%;
+    height:100%;
+}
+.carousel .slide {
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    }
+    .carousel .slide img {
+        min-width: 100%;
+        height: 70vh;
+        background-size: cover;
+    }
+    .carousel .slide button{
+        z-index:0;
+    }
+
+      @media only screen and (max-width: 640px) {
+
+        .hero-wapper{
+            height:60vh;
+        }
+       .hero-box {
+              width: 100%;
+              height:100%;
+        }
+        .carousel .slide img{
+            height: 50vh;
+        }
+
+       
+    }

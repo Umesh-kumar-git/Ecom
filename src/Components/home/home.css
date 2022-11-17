@@ -1,0 +1,9 @@
+.wapper{
+  width: 100%;
+}
+.banner h2{
+    text-align: center;
+    font-size: 3vmax;
+    padding: 2rem;
+    text-decoration:underline;
+}
